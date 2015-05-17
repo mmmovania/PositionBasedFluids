@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files\rendering">
+      <UniqueIdentifier>{9ae4adbf-a7d7-4759-9087-3619d143f24e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\rendering">
+      <UniqueIdentifier>{8da3c21d-52fe-45ad-921d-d529fd534080}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{17ce82f0-0425-44d4-9bed-9cc4186650e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\foam">
+      <UniqueIdentifier>{a4ba35b4-ce25-4384-9167-1e6f3593e2cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\water">
+      <UniqueIdentifier>{381dbecf-1c77-49d2-b571-896309c6caaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\physics">
+      <UniqueIdentifier>{a5ad0b92-87b0-4995-bf77-a727e528b232}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders\water">
+      <UniqueIdentifier>{35e0aedf-75f8-43ab-adc2-aeeb5eae332a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders\water\depth">
+      <UniqueIdentifier>{1d2cf512-0130-4849-9b03-84553bfc586e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders\water\blur">
+      <UniqueIdentifier>{ff5c310d-81c3-4859-a835-e32b6716c456}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders\water\thickness">
+      <UniqueIdentifier>{45060a6c-f3fd-43e5-bf02-1611640ccb4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders\foam">
+      <UniqueIdentifier>{258e541e-20a1-4ece-96d0-c08d02dbf07e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders\foam\thickness">
+      <UniqueIdentifier>{17c76408-13d9-4570-bd97-bba79159a1f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders\foam\depth">
+      <UniqueIdentifier>{d87a845e-2b17-452d-b603-1951da679968}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders\foam\intensity">
+      <UniqueIdentifier>{4b7d11b9-a450-42f3-b391-80f7629822b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders\water\fluidFinal">
+      <UniqueIdentifier>{2f71a3b6-01a4-4008-9a78-86fef7081d5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders\foam\radiance">
+      <UniqueIdentifier>{ed66c811-3f5b-462c-beea-6ef221105850}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources">
+      <UniqueIdentifier>{1f64b718-df0f-4235-918c-a1a841c12f5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders\general">
+      <UniqueIdentifier>{645086ed-259e-4ee8-adcd-3982bd34807d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders\cloth">
+      <UniqueIdentifier>{f7164201-4158-43a6-981a-df6e36e6cf99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Scene">
+      <UniqueIdentifier>{d9045f5a-e7cf-4fdd-b21c-394ee2da3b3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\cudaMath">
+      <UniqueIdentifier>{8a7b7d95-be78-4f0b-9a7b-c3eab3c382dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="screenshots">
+      <UniqueIdentifier>{62bffc6b-6130-4266-9f57-37ef967baca0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Source Files\rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSystem.cpp">
+      <Filter>Source Files\physics</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Header Files\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.hpp">
+      <Filter>Header Files\water</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.hpp">
+      <Filter>Header Files\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.hpp">
+      <Filter>Source Files\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="FoamParticle.hpp">
+      <Filter>Header Files\foam</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem.h">
+      <Filter>Header Files\water</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.hpp">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="parameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="helper_math.h">
+      <Filter>Header Files\cudaMath</Filter>
+    </ClInclude>
+    <ClInclude Include="setupFunctions.h">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="depth.vert">
+      <Filter>shaders\water\depth</Filter>
+    </None>
+    <None Include="depth.frag">
+      <Filter>shaders\water\depth</Filter>
+    </None>
+    <None Include="blur.vert">
+      <Filter>shaders\water\blur</Filter>
+    </None>
+    <None Include="blur.frag">
+      <Filter>shaders\water\blur</Filter>
+    </None>
+    <None Include="thickness.frag">
+      <Filter>shaders\water\thickness</Filter>
+    </None>
+    <None Include="final.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="final.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="foamThickness.frag">
+      <Filter>shaders\foam\thickness</Filter>
+    </None>
+    <None Include="foamThickness.vert">
+      <Filter>shaders\foam\thickness</Filter>
+    </None>
+    <None Include="foamDepth.vert">
+      <Filter>shaders\foam\depth</Filter>
+    </None>
+    <None Include="foamDepth.frag">
+      <Filter>shaders\foam\depth</Filter>
+    </None>
+    <None Include="fluidFinal.frag">
+      <Filter>shaders\water\fluidFinal</Filter>
+    </None>
+    <None Include="fluidFinal.vert">
+      <Filter>shaders\water\fluidFinal</Filter>
+    </None>
+    <None Include="foamIntensity.frag">
+      <Filter>shaders\foam\intensity</Filter>
+    </None>
+    <None Include="foamIntensity.vert">
+      <Filter>shaders\foam\intensity</Filter>
+    </None>
+    <None Include="radiance.frag">
+      <Filter>shaders\foam\radiance</Filter>
+    </None>
+    <None Include="radiance.vert">
+      <Filter>shaders\foam\radiance</Filter>
+    </None>
+    <None Include="plane.vert">
+      <Filter>shaders\general</Filter>
+    </None>
+    <None Include="plane.frag">
+      <Filter>shaders\general</Filter>
+    </None>
+    <None Include="ParticleSystem.cuh">
+      <Filter>Header Files\water</Filter>
+    </None>
+    <None Include="clothMesh.vert">
+      <Filter>shaders\cloth</Filter>
+    </None>
+    <None Include="clothMesh.frag">
+      <Filter>shaders\cloth</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="fluid.png">
+      <Filter>screenshots</Filter>
+    </Image>
+    <Image Include="cloth.png">
+      <Filter>screenshots</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="ParticleSystem.cu">
+      <Filter>Source Files\physics</Filter>
+    </CudaCompile>
+  </ItemGroup>
+</Project>
