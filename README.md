@@ -1,3 +1,5 @@
+This is a slightly modified clone of position based fluids by Korzen that is compilable and runnable out of the box. The original repository is here https://github.com/korzen/PositionBasedFluids
+
 CUDA/C++ implementation of several papers in the spirit of developing a small demo similar to Nvidia's FleX framework (https://developer.nvidia.com/physx-flex)
 
 Papers implemented in part or in full:
